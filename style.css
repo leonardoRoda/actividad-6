@@ -1,0 +1,237 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(179, 197, 238, 0.856);
+    position: relative;
+    padding-bottom: 20px;
+}
+.cindex{
+
+    background-image:url("./imagenes/museo.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.cpag2{
+    background-image:url("./imagenes/museo2.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* encabezado*/
+.ecdo{
+    background-color:rgba(178, 180, 145, 0.452);
+    height: 125px;
+    border-style: solid;
+    flex-wrap: wrap;
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+    
+}
+
+.tit{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* texto central ("aside")*/
+
+aside{
+    padding-top: 20px;
+}
+
+/*section{
+    padding-left: 10px;
+}*/
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 5px;
+    flex-direction: row;
+}
+.box{
+    width: 100%;
+}
+
+.caja1{
+    background-color:rgba(178, 180, 145, 0.452);
+    border-style: solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+}
+.caja2{
+    background-color:rgba(178, 180, 145, 0.452);
+    /*background-image: url("./imagenes/espacio.gif");*/
+    border-style: solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.arte1{
+    padding-left: 25px;
+    padding-right: 20px;
+}
+.arte2{
+padding-top: 30px;
+padding-left: 40px;
+}
+.arte3{
+ padding-top: 30px;
+ padding-left: 85px;
+ padding-right: 30px;
+}
+.arte4{
+    padding-top: 25px;
+    padding-left: 20px;
+}
+.arte5{
+padding-left: 25px;
+padding-top: 20px;
+padding-right: px;
+}
+.arte6{
+padding-left: 30px;
+padding-top: 20px;
+padding-right: 30px;
+}
+.arte7{
+    padding-top: 20px;
+    padding-left: 65px;
+}
+
+
+
+h3{
+    text-align: center;
+}
+
+.upi{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}  
+
+/* footer */
+.bse{
+background-color:rgba(178, 180, 145, 0.452);
+border-style: solid;
+/*padding-top: 10px;
+padding-left: 10px;
+bottom: 0;
+width: 100%;
+margin-top: 40px;
+*/
+
+border-style: solid;
+width: 980px;
+margin: 0 auto;
+position:relative;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+
+
+ul{
+    list-style: none;
+}
+
+/* horarios de atencion */
+
+/* COLOR DEL FONDO DE LA TABLA */
+table{
+background-color: rgba(223, 226, 184, 0.815);
+margin-top: 50px;
+margin-left:400px;
+}
+
+.th1{
+text-align: center;
+}
+.tul{
+    background-color: rgba(223, 226, 184, 0.815);
+    border-style: groove;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+/*
+"para poner negrita desde css se hace asi"
+
+.dias{
+    font-weight: bold;
+}
+
+*/
+
+    /* COLORES DE LOS DIAS */
+.titulo{
+    text-align: center;
+    font-size:25px;
+    font-weight: bold;
+}
+.dias{
+    font-size:20px;
+    font-weight: bold;
+}
+.clu{
+    color:rgba(243, 106, 106, 0.842);
+}
+.cma{
+    color: rgb(75, 161, 135);
+}
+.cmi{
+    color: rgba(134, 134, 241, 0.712);
+    text-align: center;
+}
+.cju{
+    color: rgba(121, 35, 202, 0.959);
+}
+.cvi{
+    color: rgba(211, 61, 211, 0.952);
+}
+.csa{
+    color: rgba(110, 58, 25, 0.918);
+}
+.cdo{
+    color: rgb(89, 141, 209);
+    text-align: center;
+}
+
+/* formulario */
+form{
+border-style: double;
+text-align: center;
+margin-left: 500px;
+margin-right: 500px;
+margin-top: 100px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.ini{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-style: double;
+}
